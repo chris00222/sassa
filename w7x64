@@ -1,7 +1,7 @@
 echo "===================================="
 echo "Download windows files"
 echo "===================================="
-wget -O w7x64.img https://bit.ly/akuhnetW10x64
+wget -O w7x64.img https://bit.ly/akuhnetw7X64
 echo "===================================="
 echo "Download ngrok"
 echo "===================================="
