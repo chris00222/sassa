@@ -3,7 +3,6 @@ wget -O w7x64.img https://bit.ly/akuhnetw7X64
 echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken 2P0AmEWVto7fICfvFWExPcKV8vB_2mwaeJxhshXuTB7nvTEaV 
 nohup ./ngrok tcp 3388 &>/dev/null &
 echo Downloading File From toigamo.blogspot.com
