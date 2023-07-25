@@ -8,7 +8,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/nu
 unzip ngrok-stable-linux-amd64.zip &>/dev/null &
 unzip ngrok-stable-linux-amd64.zip1 &>/dev/null &
 read -p "Ctrl + V Authtoken: " CRP 
-./ngrok authtoken 2P0AmEWVto7fICfvFWExPcKV8vB_2mwaeJxhshXuTB7nvTEaV
+./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3388 &>/dev/null &
 ./ngrok tcp 3388 &>/dev/null &
 echo "===================================="
