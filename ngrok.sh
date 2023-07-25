@@ -7,5 +7,5 @@ chmod +x ng.sh
 ./ng.sh
 clear
 echo "======================="
-./ngrok tcp --region 'in' 3389 &>/dev/null &
+./ngrok tcp --region in 3389 &>/dev/null &
 echo "======================="
